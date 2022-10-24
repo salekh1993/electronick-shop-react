@@ -1,0 +1,61 @@
+.main {
+   width: 800px;
+   margin: 0 auto;
+   display: grid;
+   gap: 10px;
+   padding: 20px 0;
+   grid-template-columns: repeat(3, 250px);
+   justify-content: center;
+}
+.container {
+    border: 1px solid #dbd1d1;
+    transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+    border-radius:10px;
+    box-shadow: 0 0 15px 0 lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5px;
+}
+.container button{
+    width: 99%;
+    margin: 0 auto;
+    display: block;
+}
+.container img{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+button{
+    color:green;
+    cursor: pointer;
+    padding: 4px 0;
+    border: none;
+    border-radius: 5px;
+}
+button:disabled:hover{
+    color:black;
+    background-color:darkgray;
+    cursor: none;
+}
+button:hover{
+    color:#dbd1d1;
+    background-color: green;
+    cursor: pointer;
+}
+.btnBasket {
+    color:black;
+    background-color:#dbd1d1;
+}
+.btnBasket:hover{
+    color:#dbd1d1;
+    background-color:red;
+    cursor: pointer;
+}
+h1{
+    text-align: center;    
+    margin-top: 200px;
+    color: dimgrey;
+}
